@@ -1,9 +1,9 @@
 :root{
-      --bg1: rgb(255, 205, 246); 
-      --bg2: rgba(254, 141, 249, 0.921); 
-      --accent: #b0018dd7; 
-      --card: rgba(254, 141, 249, 0.921); 
-      --glass: rgb(255, 205, 246); 
+      --bg1: #0f172a; 
+      --bg2: #0b3a5a; 
+      --accent: #76e4f7; 
+      --card: rgba(255,255,255,0.06); 
+      --glass: rgba(255,255,255,0.04); 
       --muted: rgba(255,255,255,0.7); 
       font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
     }

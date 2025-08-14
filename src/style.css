@@ -21,7 +21,7 @@
         display:flex;
         align-items:center;
         justify-content:center;
-        padding:48px 20px;
+        padding:50px 30px;
     }
     
 
@@ -39,19 +39,6 @@ a{
     border:1px solid rgba(255,255,255,0.04)
 }
 
-    .topbar{
-        display:flex;
-        justify-content:space-between;
-        align-items:center
-    }
-
-    .brand{
-        display:flex;
-        gap:12px;
-        align-items:center
-    }
-
-    
 
 .weather-main{
     display:flex;
@@ -63,6 +50,21 @@ a{
     background:linear-gradient(180deg,var(--bg2),var(--bg1))
 }
 
+.search-row{
+        display:flex;
+        gap:10px;
+        margin-top:18px
+    }
+
+    .search{
+        flex:1;display:flex;
+        gap:8px;
+        align-items:center;
+        background:var(--glass);
+        padding:10px 12px;
+        border-radius:12px
+    }
+
 .search input{
     flex:1;
     background:transparent;
@@ -70,6 +72,7 @@ a{
     color:inherit;
     outline:none
 }
+
 
     .btn{
         background:linear-gradient(90deg,var(--accent),#9be7c6);
@@ -80,20 +83,40 @@ a{
         color:#042233;
         cursor:pointer
     }
+    .current-city {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
 
-    .ghost{
-        background:transparent;
-        border:1px solid rgba(255,255,255,0.04);
-        padding:8px 10px;
-        border-radius:10px;
-        color:var(--muted);
-        cursor:pointer}
+  
+       
+    .temp {
     
-    .temp{
-        text-align: center;
-        font-size:64px;
-        font-weight:800
-    }
+    text-align: center;
+  font-size: 88px;
+  font-weight: bold;
+position: relative;
+}
+
+.temp::after {
+  content: "°C";
+  font-size: 0.5em;
+  position: relative;
+  top: -1em;
+}
+
+    .weather-app-icon{
+    width: 70px;
+    height: 70px;
+   position: relative;
+    right: -50px;
+   top: 100px; 
+
+}
+
+
     .cond{
         text-align: center;
         font-size:18px;
@@ -111,21 +134,6 @@ a{
         border-radius:12px;
         min-width:120px;
         text-align:center
-    }
-    
-     .search-row{
-        display:flex;
-        gap:10px;
-        margin-top:18px
-    }
-
-    .search{
-        flex:1;display:flex;
-        gap:8px;
-        align-items:center;
-        background:var(--glass);
-        padding:10px 12px;
-        border-radius:12px
     }
 
     footer{

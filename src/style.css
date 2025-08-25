@@ -107,6 +107,10 @@ position: relative;
   top: -1em;
 }
 
+.time{
+    margin-top: 22px;
+}
+
     .weather-app-icon{
     width: 70px;
     height: 70px;
